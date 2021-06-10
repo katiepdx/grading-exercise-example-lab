@@ -15,13 +15,11 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
 
-        {message}
+        <p aria-label="message">{message}</p>
 
         <p>
-        <button onClick={handleClick}>View Message</button>
+          <button aria-label="view-message" onClick={handleClick}>View Message</button>
         </p>
-        
-
       </header>
     </div>
   );
